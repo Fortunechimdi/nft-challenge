@@ -1,0 +1,63 @@
+body{
+    background: hsl(217, 54%, 11%);
+
+}
+.card{
+    display: block;
+    background:hsl(216, 50%, 16%);
+     width:340px;
+     margin-left: auto;
+     margin-right: auto;
+     padding:30px;
+     margin-top: 70px;
+     margin-bottom: 100px;
+     border-radius:15px;
+     color: hsl(215, 51%, 70%);
+     font-family: 'Outfit',sans-serif;
+}
+#nft-image{
+    width: 100%;
+    border-radius:15px;
+}
+#name{
+    color: white;
+}
+.card-details {
+    display: flex;
+    justify-content: space-between;
+}
+.price, .time{
+    display: flex;
+    align-items: center;
+}
+.price{
+    font-weight: bold;
+    color: cyan;
+}
+#eth-icon {
+    width:12px;
+    height: 16px;
+}
+#clock-icon {
+    width:16px;
+    height:16px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+}
+#avatar{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%
+}
+#eth-icon, #avatar, #clock-icon{
+    margin-right: 10px;
+}
+#author{
+    color: white;
+}
+.card-content{
+    font-size: 18px;
+}
